@@ -1,0 +1,11 @@
+[{
+    "keys": ["escape"],
+    "command": "auto_switch_im_for_vintage",
+    "context": [{
+        "key": "setting.command_mode",
+        "operand": false
+    }, {
+        "key": "setting.is_widget",
+        "operand": false
+    }]
+}]
