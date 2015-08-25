@@ -5,8 +5,8 @@ from os import path
 # Takes an array of commands (same as those you'd provide to a key binding) with
 # an optional context (defaults to view commands) & runs each command in order.
 # Valid contexts are 'text', 'window', and 'app' for running a TextCommand,
-# WindowCommands, or ApplicationCommand respectively.
-class IMSwitchForVintageCommand(sublime_plugin.TextCommand):
+# WindowCommands, or ApplicationCommand respectively.中文
+class ImSwitchForVintageCommand(sublime_plugin.TextCommand):
   def change_input_method(self, input_method):
     cmd = './im ' + input_method
     proc = subprocess.Popen(cmd, cwd=path.dirname(__file__),

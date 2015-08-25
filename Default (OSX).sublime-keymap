@@ -1,6 +1,6 @@
 [{
     "keys": ["escape"],
-    "command": "auto_switch_im_for_vintage",
+    "command": "im_switch_for_vintage",
     "context": [{
         "key": "setting.command_mode",
         "operand": false

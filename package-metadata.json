@@ -1,8 +1,0 @@
-{
-    "dependencies": [],
-    "version": "0.0.1",
-    "platforms": ["OSX"],
-    "description": "Sublime Text 3 plugin for Semi",
-    "url": "https://github.com/zhongxingdou/IMSwitchForVintage-sublime",
-    "sublime_text": ">=3000"
-}
